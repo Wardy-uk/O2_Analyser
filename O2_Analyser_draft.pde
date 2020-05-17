@@ -59,7 +59,7 @@ void setup() {
  
   Serial.println(" V");
  
-        lcd.clear();
+       lcd.clear();
        lcd.setCursor(0,0);
        lcd.print("Batt Check");
        lcd.setCursor(0,1);
@@ -72,7 +72,7 @@ void setup() {
        display.print("Batt Check:");
        display.setCursor(10,45);
        display.print(voltage);
-      display.setCursor(50,45);
+       display.setCursor(50,45);
        display.print("v");
 
        display.display();
@@ -182,10 +182,6 @@ void setup() {
 void loop() {
 
  
- 
-  
- 
-
 
 
 
